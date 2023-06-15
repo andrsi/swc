@@ -125,4 +125,4 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 LENGTH_SLUG = 5
-BASE_URL = 'http:127.0.0.1:8000'
+BASE_URL = 'http://127.0.0.1:8000'

@@ -27,4 +27,4 @@ class ShortLink(models.Model):
         if not cls.objects.filter(slug=slug).exists():
             return slug
         else:
-            cls.generate_random_slug()
+            return cls.generate_random_slug()
